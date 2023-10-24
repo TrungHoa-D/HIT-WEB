@@ -1,0 +1,29 @@
+*{
+     padding: 0;
+    margin: 0;  
+}
+.hcn {
+    text-align: center;
+    padding: 0.5em 1em; 
+    margin: 1em 0;
+}
+.hcn > b {
+    background-color: bisque;
+    padding: 0.7em 1.4em;
+}
+.h1 {
+}
+.tt {
+    padding: 0em 1em;
+    text-align: center;
+}
+.but {
+    text-align: center;
+}
+.put{
+    padding: 1em;
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    margin: 0.5em;
+}

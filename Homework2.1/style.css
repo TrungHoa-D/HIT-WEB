@@ -1,0 +1,44 @@
+@font-face {
+    font-family: font_vinamilk;
+    src: url(../Homework2.1/font/VNM-Sans-Display-Regular.otf);   
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: font_vinamilk;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: #0313b0;
+    height: 100vh;
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    padding-top: 20vh
+}
+h1{
+    font-size: 8.1em;
+    font-weight: 500;
+}
+h2{
+    font-size: 2.7em;
+    display: inline;
+    font-weight: 500;
+}
+.left{
+    text-align: left;
+    margin-right: 4.5em;
+}
+.right{
+    text-align: right;
+}
+.block{
+    display: block;
+}
+i{
+    padding: 1em;
+    font-size: 2em;
+}
