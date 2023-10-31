@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.h{
+    display: flex;
+    align-items: center;
+}
+.t{
+    display: flex;
+}
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    /* margin: 20px; */
+}
+#c2 {
+    align-items: center;
+}
+.four{
+    display: flex;
+    align-items: center;
+}
+.wsquare {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    /* margin: 20px; */
+}
