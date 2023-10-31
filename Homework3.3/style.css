@@ -1,0 +1,119 @@
+*{
+    font-family: Inconsolata;
+    color: rgba(0,0,0,0.8);
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(./fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+    font-weight: light;
+    font-style: normal;
+    color: gray;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+    color: gray;
+}
+#main{
+    margin:3rem 6rem;
+}
+#header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 6rem;
+}
+#header > i:hover{
+    font-size: 150%;
+}
+#slider {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2em;
+}
+h1{
+    font-family: Raleway;
+    margin-bottom: 1rem;
+}
+h3{
+    font-weight:600;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-right: 0;
+}
+.menu > h3{
+    margin-left: 1em;
+}
+.menu > h3:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row > img{
+    max-width: 30%;
+    height: auto;
+    margin: 1em;
+}
+.Name{
+    padding-top: 10rem;
+    text-align: center;
+    max-width: 45%;
+}
+.Name > h2{
+    font-size:xx-large;
+    font-weight: 500;
+}
+.part2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+#logo > img{
+    max-width: 12.5%;
+    height: auto;
+}
+#logo > img:hover{
+    background-color: rgba(0,0,0,0.75);
+}
+#services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.infor{
+    display: block;
+    max-width: 20%;
+}
+.infor > h3{
+    text-align: left;
+    margin: 1em 0em ;
+}
+li{
+    font-weight:bold;
+    list-style-type:none;
+    margin: 1em 0em ;
+}
+#footer{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+#social{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
