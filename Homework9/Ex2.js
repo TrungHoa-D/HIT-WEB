@@ -1,6 +1,6 @@
 var bigNum = "240103649028164869";
 function add1(x) {
-    x = String(x);
+    
     for (let i = x.length - 1; i >= 0; i--) {
         let a = Number(x.charCodeAt(i) - 48);
         if (a == 9) {
