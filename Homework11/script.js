@@ -32,5 +32,8 @@ Array.prototype.mySort = function(compare) {
             }
     return this;
 }
-const sort= arr.mySort();
+const sort= arr.mySort(function(a,b){
+    if(String(a)>String(b)) return -1;
+    else return 1;
+});
 console.log(sort);
